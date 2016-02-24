@@ -1,8 +1,14 @@
 body {
-	background: #fff !important;
-	padding-top: 5px;
+	background: #ffffff !important;
+	padding-top:5px;
+	p {
+  	color:#444444;
+	}
 	a {
   	font-weight: bold;
+	}
+	img {
+  	max-width: 580px !important;
 	}
 }
 
@@ -12,4 +18,11 @@ body {
 		width: 200px !important;
 		display:block !important;
 	}
+}
+
+// Narrative-Specifc Email Styles
+body.narrative {
+  th img {
+    margin:0 0 17px 0;                   // The extra 7px on here are to make the space below an image visually match the space that follows a paragraph. Takes line height into account. 
+  }
 }

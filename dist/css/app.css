@@ -1122,7 +1122,7 @@ body.outlook p {
     width: 100% !important; } }
 
 body {
-  background-color: #eeeeee; }
+  background-color: #ffffff; }
 
 .container {
   background-color: #ffffff; }
@@ -1196,13 +1196,20 @@ table.columns .right-text-pad {
   background: red; }
 
 body {
-  background: #fff !important;
+  background: #ffffff !important;
   padding-top: 5px; }
+  body p {
+    color: #444444; }
   body a {
     font-weight: bold; }
+  body img {
+    max-width: 580px !important; }
 
 .logo {
   margin-bottom: 15px; }
   .logo img {
     width: 200px !important;
     display: block !important; }
+
+body.narrative th img {
+  margin: 0 0 17px 0; }
